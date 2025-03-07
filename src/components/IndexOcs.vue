@@ -12,9 +12,9 @@
         <li>  
           <router-link to="/formacion">Formación</router-link>  
         </li>  
-      </ul>  
+      </ul>
     </nav>  
-  </header>  
+  </header>
 </template>
 <!-- ************************************* -->
 <script setup>
