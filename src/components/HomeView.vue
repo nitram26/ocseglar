@@ -1,10 +1,5 @@
 <template>
-  <NavInterno>
-    <template #main>Orden Seglar Carmelita</template>
-    <template #title1><h6>"no aceptes como verdad <br> lo que no proviene <br>del amor</h6></template>
-    <template #title2><h6>Ni aceptes como amor <br>lo que no proviene <br> de la verdad"</h6></template>
-    <template #title3><h6>Edith Stein</h6></template>
-  </NavInterno>
+
 
  
       <!-- fin de navegador derecho -->
@@ -32,7 +27,6 @@
 </template>
 <!-- ///////////////////////////////////////////////////////////// -->
 <script setup>
-import NavInterno from '../layouts/NavInterno.vue'
 import MyFooter from './MyFooter.vue';
 
 </script>

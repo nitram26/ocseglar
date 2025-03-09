@@ -1,5 +1,5 @@
 <template>
-    <v-row class="bg-teal-darken-2 pt-6 dos" >
+    <v-row class="bg-teal-darken-2 pt-8  dos fixed-row" >
       <v-col cols="11" class="text-center">
           <h2><slot name="main"></slot> </h2>
       </v-col>
@@ -49,4 +49,12 @@ const scrollTo = (sectionId) => {
   margin-top: 0.2em;
  
 }
+
+.fixed-row {  
+  position: fixed;  
+  top: 10;  
+  left: 0;  
+  width: 100%;  
+  z-index: 10; /* Asegura que esté por encima del resto del contenido */  
+} 
 </style>
