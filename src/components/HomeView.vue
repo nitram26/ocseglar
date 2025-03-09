@@ -1,5 +1,4 @@
 <template>
-  <h1 class="mt-7">Carlos Cervera</h1>
   <NavInterno>
     <template #main>Orden Seglar Carmelita</template>
     <template #title1><h6>"no aceptes como verdad <br> lo que no proviene <br>del amor</h6></template>

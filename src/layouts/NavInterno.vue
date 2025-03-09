@@ -1,17 +1,18 @@
 <template>
-    <v-row class="bg-teal-darken-2 pt-6" >
+    <v-row class="bg-teal-darken-2 pt-6 dos" >
       <v-col cols="11" class="text-center">
           <h2><slot name="main"></slot> </h2>
       </v-col>
-    <v-col cols="1" >
+    <v-col cols="1">
 <v-btn icon @click="toggleDrawer" >
     <img src="../assets/image/escudoCarm.png" alt="My Image2" style="width: 39px; border-radius: 1em;"/></v-btn>
     </v-col>
   </v-row>
   <!-- ********************************************* -->
   <v-navigation-drawer v-model="drawer" class="br-teal-darken-4" theme="dark">
+    <h6>nav</h6>
     <v-list>
-     <v-list-item link to="/" title="HOME" prepend-icon="mdi-grid"></v-list-item>
+     <v-list-item link to="/" title="AL INICIO" prepend-icon="mdi-grid"></v-list-item>
 
         <v-list-item ><v-btn @click="scrollTo('section1')" prepend-icon="mdi-arrange-bring-to-front"><slot name="title1"></slot></v-btn></v-list-item>
 
@@ -43,5 +44,9 @@ const scrollTo = (sectionId) => {
 </script>
 <!-- ************************************* -->
 <style scoped>
-
+.dos{
+  border: 5px white double;
+  margin-top: 0.2em;
+ 
+}
 </style>
